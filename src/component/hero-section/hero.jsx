@@ -4,7 +4,7 @@ import Icon from "../hero-section/assets/Icon (Stroke) (1).png"
 const hero = () => {
     return (
         <div>
-              <div className="navbar bg-base-100  container mx-auto">
+              <div className="navbar bg-base-100 mx-auto  max-w-[90%] lg:max-w-[75%]">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -12,7 +12,7 @@ const hero = () => {
       </div>
       <ul
         tabIndex="-1"
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow ">
         <li><a className='text-[#101727]'>Products</a></li>
       <li><a className='text-[#101727]'>Features</a></li>
       <li><a className='text-[#101727]'>Pricing</a></li>
@@ -20,7 +20,7 @@ const hero = () => {
       <li><a className='text-[#101727]'>FAQ</a></li>
       </ul>
     </div>
-    <a className="font-bold text-3xl bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-transparent bg-clip-text">DigiTools</a>
+    <a className="font-bold text-2xl lg:text-4xl bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-transparent bg-clip-text">DigiTools</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
