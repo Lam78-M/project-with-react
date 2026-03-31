@@ -5,6 +5,7 @@ import Lastpart from './component/hero-section/lastpart';
 import Lastsection from './component/hero-section/lastsection';
 import Mainmid from './component/hero-section/mainmid'
 import MidSsection from './component/hero-section/midSsection'
+import Sidecart from './component/hero-section/sidecart';
 import Transparent from './component/hero-section/transparent';
 
   
@@ -20,6 +21,7 @@ function App() {
       <Lastpart/>
       <Transparent/>
       <Lastsection/>
+      <Sidecart/>
     </div>
   );
 

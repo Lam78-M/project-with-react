@@ -5,7 +5,7 @@ const Transparent = () => {
         <div className='w-[75%] mx-auto mt-[150px]'>
             <h1 className='text-5xl font-bold text-center '>Simple, Transparent Pricing</h1>
             <p className='text-[#627382] text-center mt-[10px]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
-            <div className='grid lg:grid-cols-3 md:grid-cols-1 gap-4 mt-[60px]'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-1 gap-6 mt-[60px]'>
                 {/* helllo brother */}
             <div className="card  bg-base-100 shadow-lg rounded-3xl ">
   <div className="card-body">
@@ -44,9 +44,11 @@ const Transparent = () => {
     </div>
   </div>
 </div>
-<div className="card  bg-gradient-to-r from-[#4F39F6] to-[#9514FA] shadow-lg rounded-3xl ">
+<div className="card  bg-gradient-to-r from-[#4F39F6] to-[#9514FA] shadow-lg rounded-3xl relative  ">
   <div className="card-body">
-    <span className="badge badge-xs badge-warning">Most Popular</span>
+    <span className="absolute -top-4 left-1/2 -translate-x-1/2 
+  bg-[#edee9b] px-4 py-1 rounded-full font-bold text-[#BB4B00] shadow-md text-[18px]"><span className='
+    '>Most Popular</span></span>
     <div className="">
       <h2 className="text-3xl font-bold text-white">Pro</h2>
       <p className='text-white'>Best for professionals</p>
@@ -78,7 +80,8 @@ const Transparent = () => {
         <span className='text-white'>Advanced analytics</span>
       </li>
     </ul>
-    <button className="btn   btn-block text-black rounded-full border-none">Start Pro Trial</button>
+    <br></br>
+    <button className="btn   btn-block text-black rounded-full border-none "><span className='bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-transparent bg-clip-text font-bold'>Start Pro Trial</span></button>
   </div> 
 </div>
 <div className="card  bg-base-100 shadow-lg rounded-3xl">
@@ -114,6 +117,7 @@ const Transparent = () => {
         <span>Custom branding</span>
       </li>
     </ul>
+    <br></br>
  
     <button className="btn  bg-gradient-to-r from-[#4F39F6] to-[#9514FA] btn-block text-white rounded-full">Contact Sales</button>
   </div>

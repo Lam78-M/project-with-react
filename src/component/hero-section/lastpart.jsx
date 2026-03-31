@@ -1,7 +1,7 @@
 import React from 'react';
 import User from "../hero-section/assets/user.png"
-import Package from "../hero-section/assets/rocket.png"
-import Rocket from "../hero-section/assets/package.png"
+import Package from "../hero-section/assets/package.png"
+import Rocket from "../hero-section/assets/rocket-02.png"
 
 
 const Lastpart = () => {
@@ -15,19 +15,19 @@ const Lastpart = () => {
             </p>
         </div>
          <div className='grid  md:grid-cols-3 lg:grid-cols-3 mt-[50px] items-center justify-between gap-5  '>
-            <div className='bg-[#FFFFFF] shadow-sm rounded-2xl px-8 py-20'>
-                 <div className='w-7 h-7 p-4 text-white flex items-center justify-center bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full  '>01</div>
+            <div className='bg-[#FFFFFF] shadow-sm rounded-2xl px-8 py-20 relative'>
+                 <div className='w-7 h-7 p-4 text-white flex items-center justify-center bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full  absolute  top-4 right-4 '>01</div>
                 <div className='flex justify-center'>
                     
-                    <img src={User} alt="" className='items-center bg-[#8000803b] w-20 h-20 p-2  rounded-full' />
+                    <img src={User} alt="" className='items-center bg-[#8000803b] w-20 h-20 p-2  rounded-full ' />
                 </div>
                 <p className='text-xl text-center font-bold mt-[10px]'>Create Account</p>
                 <p  className='text-[#627382] text-center mt-[10px] '>Sign up for free in seconds. No credit card <br></br>required to get started.</p>
 
 
             </div>
-              <div className='bg-[#FFFFFF] shadow-sm rounded-2xl px-8 py-20'>
-                <div className='w-7 h-7 p-4 text-white flex items-center justify-center bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full  '>02</div>
+              <div className='bg-[#FFFFFF] shadow-sm rounded-2xl px-8 py-20 relative'>
+                <div className='w-7 h-7 p-4 text-white flex items-center justify-center bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full  absolute  top-4 right-4 '>02</div>
                <div className='flex justify-center'>
                 
                       
@@ -36,10 +36,10 @@ const Lastpart = () => {
                 <p className='text-xl text-center font-bold mt-[10px]'>Choose Products</p>
                 <p className='text-[#627382] text-center mt-[10px]'>Sign up for free in seconds. No credit card <br></br>required to get started.</p>
             </div>
-              <div className='bg-[#FFFFFF] shadow-sm rounded-2xl px-8 py-20'>
-                <div className='w-7 h-7 p-4 text-white flex items-center justify-center bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full  '>03</div>
+              <div className='bg-[#FFFFFF] shadow-sm rounded-2xl px-8 py-20 relative'>
+                <div className='w-7 h-7 p-4 text-white flex items-center justify-center bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full absolute  top-4 right-4'>03</div>
                <div className='flex justify-center'>
-                    <img src={Rocket} alt="" className='items-center bg-[#8000803b] w-20 h-20 p-2   rounded-full' />
+                    <img src={Rocket} alt="" className='items-center bg-[#8000803b] w-20 h-20 p-2  rounded-full' />
                 </div>
                 <p className='text-xl text-center font-bold mt-[10px]'>Start Creating</p>
                 <p  className='text-[#627382] text-center mt-[10px]'>Sign up for free in seconds. No credit card <br></br>required to get started.</p>
