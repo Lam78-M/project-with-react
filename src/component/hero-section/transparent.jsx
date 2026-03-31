@@ -7,7 +7,7 @@ const Transparent = () => {
             <p className='text-[#627382] text-center mt-[10px]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
             <div className='grid lg:grid-cols-3 md:grid-cols-1 gap-4 mt-[60px]'>
                 {/* helllo brother */}
-            <div className="card w-96 bg-base-100 shadow-lg rounded-3xl ">
+            <div className="card  bg-base-100 shadow-lg rounded-3xl ">
   <div className="card-body">
     <span className="text-3xl font-bold">Starter</span>
     <div className="">
@@ -44,7 +44,7 @@ const Transparent = () => {
     </div>
   </div>
 </div>
-<div className="card w-96 bg-gradient-to-r from-[#4F39F6] to-[#9514FA] shadow-lg rounded-3xl ">
+<div className="card  bg-gradient-to-r from-[#4F39F6] to-[#9514FA] shadow-lg rounded-3xl ">
   <div className="card-body">
     <span className="badge badge-xs badge-warning">Most Popular</span>
     <div className="">
@@ -81,7 +81,7 @@ const Transparent = () => {
     <button className="btn   btn-block text-black rounded-full border-none">Start Pro Trial</button>
   </div> 
 </div>
-<div className="card w-96 bg-base-100 shadow-lg rounded-3xl">
+<div className="card  bg-base-100 shadow-lg rounded-3xl">
   <div className="card-body">
     <span className="text-3xl font-bold">Enterprise</span>
     <div className="">
