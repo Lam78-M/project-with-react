@@ -1,13 +1,15 @@
 import React, {use} from 'react';
+import ProductCard from './ProductCard';
 
 
 const Cardsection = ({cardPromise}) => {
     console.log(cardPromise);
-    const data = use(cardPromise);
-    console.log(data)
+    const cards = use(cardPromise);
+    console.log(cards)
     return (
-        <div>
-            cards: {data.length}
+        <div className='w-[75%] mx-auto'>
+            cards: {cards.length}
+            <ProductCard cards={cards} />
         </div>
     );
 };

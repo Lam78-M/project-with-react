@@ -1,97 +1,92 @@
 [
   {
     "id": 1,
-    "name": "Starter Plan",
-    "description": "Perfect for beginners who want to create simple resumes quickly.",
-    "price": 0,
-    "period": "one-time",
+    "bar": "Best Seller",
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": "$29" ,
+    "period": "/Mo",
     "tag": "new",
     "tagType": "new",
-    "features": [
-      "10+ templates",
-      "Basic customization",
-      "Export to PDF"
-    ],
-    "icon": "FaRocket"
+    "features1":"Unlimited AI generations",
+    "features2":"50+ writing templates",
+    "features3":"Grammar checker",
+    "icon": "FaRocket",
+     "image": "../src/component/hero-section/assets/products/writing_2327400 1.png"
   },
   {
     "id": 2,
-    "name": "Basic Plan",
-    "description": "Great for individuals starting their professional journey.",
-    "price": 4.99,
-    "period": "monthly",
-    "tag": "new",
+    "bar": "Popular",
+    "name": "Design Templates Pack",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "price": "$49",
+    "period": "/One-Time",
+    "tag": "new",     
     "tagType": "new",
-    "features": [
-      "25+ templates",
-      "Basic ATS optimization",
-      "Export to PDF",
-      "Email support"
-    ],
-    "icon": "FaUser"
-  },
+    "features1": "2000+ templates",
+    "features2": " Monthly updates    ",
+    "features3": " Commercial license",
+    "icon": "FaUser",
+     "image": "../src/component/hero-section/assets/products/design-tool.png"
+  },  
   {
     "id": 3,
-    "name": "Pro Plan",
-    "description": "Best for professionals who need advanced tools and templates.",
-    "price": 9.99,
-    "period": "monthly",
+    "bar": "New",
+    "name": "Premium Stock Assets",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects. ",
+    "price": "$19",
+    "period": "/Mo",
     "tag": "popular",
     "tagType": "popular",
-    "features": [
-      "100+ templates",
-      "ATS optimization",
-      "Export to PDF & Word",
-      "Custom sections"
-    ],
-    "icon": "FaCrown"
+    "features1":"10M+ assets",
+    "features2":"Commercial use",
+    "features3":"No attribution",
+    "icon": "FaCrown",
+     "image": "../src/component/hero-section/assets/products/camera_8775444 1.png"
   },
   {
     "id": 4,
-    "name": "Advanced Plan",
-    "description": "For serious users who want more control and premium features.",
-    "price": 19.99,
-    "period": "monthly",
+    "bar": "Popular",
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+    "price": "$79",
+    "period": "/Mo",
     "tag": "popular",
     "tagType": "popular",
-    "features": [
-      "200+ templates",
-      "Advanced customization",
-      "Multiple export formats",
-      "Priority email support"
-    ],
-    "icon": "FaStar"
+    "features1":"50+ automations",
+    "features2":"API access",
+    "features3":"Custom workflows  ",
+    "icon": "FaStar",
+     "image": "../src/component/hero-section/assets/products/operation.png"
   },
   {
     "id": 5,
-    "name": "Business Plan",
-    "description": "Ideal for teams and companies with premium features.",
-    "price": 99.99,
-    "period": "yearly",
+    "bar": "New",
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes and cover letters that land interviews.",
+    "price": "$15",
+    "period": "/One-Time",
     "tag": "best seller",
     "tagType": "best seller",
-    "features": [
-      "Unlimited templates",
-      "Team collaboration",
-      "Priority support",
-      "Advanced analytics"
-    ],
-    "icon": "FaBuilding"
+    "features1":"100+ templates",
+    "features2":"ATS optimization",
+    "features3":"Export to PDF",
+    "icon": "FaBuilding",
+     "image": "../src/component/hero-section/assets/products/portfolio.png"
   },
   {
     "id": 6,
-    "name": "Lifetime Plan",
-    "description": "One-time payment for lifetime access to all features.",
-    "price": 149.99,
-    "period": "one-time",
+    "bar": "Best Seller",
+    "name": "Social Media Content Kit",
+    "description": "Complete toolkit for creating engaging social media content across all platforms.",
+    "price": "$39",
+    "period": "/Mo",
     "tag": "best seller",
     "tagType": "best seller",
-    "features": [
-      "All templates access",
-      "Lifetime updates",
-      "Export in all formats",
-      "Premium support"
-    ],
-    "icon": "FaInfinity"
+    "features1": "5000+ assets",
+    "features2": "5000+ assets",
+    "features3": "Analytics dashboard ",
+    "icon": "FaInfinity",
+     "image": "../src/component/hero-section/assets/products/social-media.png"
   }
 ]
