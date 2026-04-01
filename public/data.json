@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Plan",
+    "description": "Perfect for beginners who want to create simple resumes quickly.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "10+ templates",
+      "Basic customization",
+      "Export to PDF"
+    ],
+    "icon": "FaRocket"
+  },
+  {
+    "id": 2,
+    "name": "Basic Plan",
+    "description": "Great for individuals starting their professional journey.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "25+ templates",
+      "Basic ATS optimization",
+      "Export to PDF",
+      "Email support"
+    ],
+    "icon": "FaUser"
+  },
+  {
+    "id": 3,
+    "name": "Pro Plan",
+    "description": "Best for professionals who need advanced tools and templates.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF & Word",
+      "Custom sections"
+    ],
+    "icon": "FaCrown"
+  },
+  {
+    "id": 4,
+    "name": "Advanced Plan",
+    "description": "For serious users who want more control and premium features.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "200+ templates",
+      "Advanced customization",
+      "Multiple export formats",
+      "Priority email support"
+    ],
+    "icon": "FaStar"
+  },
+  {
+    "id": 5,
+    "name": "Business Plan",
+    "description": "Ideal for teams and companies with premium features.",
+    "price": 99.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited templates",
+      "Team collaboration",
+      "Priority support",
+      "Advanced analytics"
+    ],
+    "icon": "FaBuilding"
+  },
+  {
+    "id": 6,
+    "name": "Lifetime Plan",
+    "description": "One-time payment for lifetime access to all features.",
+    "price": 149.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "All templates access",
+      "Lifetime updates",
+      "Export in all formats",
+      "Premium support"
+    ],
+    "icon": "FaInfinity"
+  }
+]
