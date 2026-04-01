@@ -1,7 +1,7 @@
 import React from 'react';
 import Icon from "../hero-section/assets/Icon (Stroke) (1).png"
 
-const hero = () => {
+const Hero = () => {
     return (
         <div>
               <div className="navbar bg-base-100 mx-auto  max-w-[90%] lg:max-w-[75%]">
@@ -41,4 +41,4 @@ const hero = () => {
     );
 };
 
-export default hero;
+export default Hero;

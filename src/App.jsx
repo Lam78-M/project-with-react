@@ -2,7 +2,7 @@
 import { Suspense } from 'react';
 import './App.css'
 import Cardsection from './component/hero-section/Cardsection';
-import Hero from './component/hero-section/hero'
+import Hero from './component/hero-section/Hero'
 import Lastpart from './component/hero-section/lastpart';
 import Lastsection from './component/hero-section/lastsection';
 import Mainmid from './component/hero-section/mainmid'
@@ -18,6 +18,8 @@ const fetchCard = async()=>{
 
 function App() {
   const cardPromise  = fetchCard()
+
+  
   
   return (
     <div>

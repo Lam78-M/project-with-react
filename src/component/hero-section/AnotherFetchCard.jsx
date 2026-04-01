@@ -1,27 +1,9 @@
-import React, { useState } from 'react';
-import Writing from "../hero-section/assets/products/writing_2327400 1.png"
+import React from 'react';
 
-const ProductCard = ({ cards, onAddToCart }) => {
-  const [selectedStates, setSelectedStates] = useState(new Array(cards.length).fill(false));
-
-  const handleSelect = (index) => {
-    const updated = [...selectedStates];
-    if (!updated[index]) {
-      updated[index] = true;   // sudhu select korle
-      onAddToCart();           // count barabe
-    }
-    setSelectedStates(updated);
-  };
-
-  
+const AnotherFetchCard = ({card}) => {
     return (
-      <div>
-                <div className=' w-[75%] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-[100px]'>  
-            {
-                cards.map((card, index) => {
-                    console.log(card, 'card')
-                    return <div className=''>
-                        <div className="card  bg-white border border-gray-200 rounded-2xl relative p-4 ">
+        <div>
+                                  <div className="card  bg-white border border-gray-200 rounded-2xl relative p-4 ">
   <div className="card-body ">
    
     <span className="absolute top-4 right-4 
@@ -60,22 +42,11 @@ const ProductCard = ({ cards, onAddToCart }) => {
       </li>
     </ul>             
     <br></br>
-    <button onClick={() => handleSelect(index)} className={`btn btn-block text-white rounded-full border-none ${
-    selectedStates[index] 
-      ? "bg-green-500"   
-      : "bg-gradient-to-r from-[#4F39F6] to-[#9514FA]" 
-  }`}><span className='text-white font-bold' >
-      {selectedStates[index] ? "Selected" : "Start Pro Trial"}
-                </span></button>
+    <button className="btn   btn-block text-black rounded-full border-none bg-gradient-to-r from-[#4F39F6] to-[#9514FA]  "><span className='text-white font-bold'>Start Pro Trial</span></button>
   </div> 
 </div>
-                    </div>
-                })
-            }
-            
         </div>
-      </div>
     );
 };
 
-export default ProductCard;
+export default AnotherFetchCard;
