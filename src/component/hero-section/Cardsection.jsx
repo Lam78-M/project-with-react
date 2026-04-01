@@ -1,7 +1,7 @@
 import React, { use, useState} from 'react';
 import ProductCard from './ProductCard';
 import SelectedCard from './SelectedCard';
-import Hero  from './Hero';
+import Hero from './Hero';
 
 const Cardsection = ({ cardPromise }) => {
   const cards = use(cardPromise);

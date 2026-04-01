@@ -1,8 +1,8 @@
 
-import { Suspense } from 'react';
+import { Suspense,useState } from 'react';
 import './App.css'
 import Cardsection from './component/hero-section/Cardsection';
-import Hero from './component/hero-section/Hero'
+import Hero from './component/hero-section/hero';
 import Lastpart from './component/hero-section/lastpart';
 import Lastsection from './component/hero-section/lastsection';
 import Mainmid from './component/hero-section/mainmid'
@@ -17,17 +17,25 @@ const fetchCard = async()=>{
 
 
 function App() {
+  
   const cardPromise  = fetchCard()
-
+ const [cartCount, setCartCount] = useState(0);
   
-  
+  <Cardsection 
+  cardPromise={cardPromise}
+  setCartCount={setCartCount}
+   cartCount={cartCount}
+/>
   return (
     <div>
-      <Hero/>
+      
+      <Hero cartCount={cartCount}/>
       <MidSsection/>
       <Mainmid/>
      <Suspense fallback={<span className="loading loading-ring loading-xl"></span>}>
-       <Cardsection cardPromise={cardPromise}/>
+       <Cardsection cardPromise={cardPromise}
+        setCartCount={setCartCount}/>
+        
      </Suspense>
       <Lastpart/>
       <Transparent/>
