@@ -1,51 +1,50 @@
-
-import { Suspense,useState } from 'react';
+import { Suspense, useState } from 'react';
 import './App.css'
 import Cardsection from './component/hero-section/Cardsection';
-import Hero from './component/hero-section/hero';
+import Hero from './component/hero-section/Hero';
 import Lastpart from './component/hero-section/lastpart';
 import Lastsection from './component/hero-section/lastsection';
 import Mainmid from './component/hero-section/mainmid'
 import MidSsection from './component/hero-section/midSsection'
 import Sidecart from './component/hero-section/sidecart';
 import Transparent from './component/hero-section/transparent';
-
-const fetchCard = async()=>{
-  const res = await fetch("/data.json");
-  return res.json()
-}
+import ProductCard from './component/hero-section/ProductCard';
+import ShowingCards from './component/ShowingCards';
+import { Toaster } from 'react-hot-toast';
 
 
-function App() {
-  
-  const cardPromise  = fetchCard()
- const [cartCount, setCartCount] = useState(0);
-  
-  <Cardsection 
-  cardPromise={cardPromise}
-  setCartCount={setCartCount}
-   cartCount={cartCount}
-/>
+
+
+function App  ()  {                   
+
+const [cards, setCards] = useState([])
+
+
   return (
+
+
+
     <div>
-      
-      <Hero cartCount={cartCount}/>
-      <MidSsection/>
-      <Mainmid/>
-     <Suspense fallback={<span className="loading loading-ring loading-xl"></span>}>
-       <Cardsection cardPromise={cardPromise}
-        setCartCount={setCartCount}/>
+      <Toaster></Toaster>
+
+      <Hero cards={cards}  />
+
+      <MidSsection />
+      <Mainmid />
+   
+      <Suspense fallback={<span className="loading loading-ring loading-xl"></span>}>
+        <Cardsection cards={cards} setCards={setCards} />
+      </Suspense>
+    
         
-     </Suspense>
-      <Lastpart/>
-      <Transparent/>
-      <Lastsection/>
-      <Sidecart/>
+
+      <Lastpart />
+      <Transparent />
+      <Lastsection />
+  
+
     </div>
   );
-
-     
-  
 };
 
-export default App
+export default App;
