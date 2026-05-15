@@ -5,28 +5,22 @@ import ShowingCards from '../ShowingCards';
 
 const Cardsection = ({ cards, setCards }) => {
 
-  const [activeTab, setActiveTab] = useState('tools');
+const [activeTab, setActiveTab] = useState('tools');
 
   return (
     <div>
-
       <div className='w-[75%] mx-auto mb-20'>
-
         <h1 className='font-bold text-black text-4xl text-center mt-50 mb-5'>
           Premium Digital Tools
         </h1>
-
         <p className='text-center'>
           Choose from our curated collection of premium digital products designed
           <br />
           to boost your productivity and creativity.
         </p>
-
         <div className='flex items-center justify-center mt-5'>
-
           <div className="flex items-center bg-white border border-gray-200 rounded-full p-2 w-fit shadow-sm">
-
-            {/* Products Button */}
+            {/* Products Button------------------- */}
             <button
               onClick={() => setActiveTab('tools')}
               className={`px-5 py-2 rounded-full font-semibold transition-all duration-300
@@ -39,7 +33,7 @@ const Cardsection = ({ cards, setCards }) => {
               Products
             </button>
 
-            {/* Cart Button */}
+            {/* Cart Button----------------------- */}
             <button
               onClick={() => setActiveTab('cards')}
               className={`px-5 py-2 rounded-full font-semibold transition-all duration-300
@@ -61,9 +55,8 @@ const Cardsection = ({ cards, setCards }) => {
             ? <ProductCard cards={cards} setCards={setCards} />
             : <ShowingCards setCards={setCards} cards={cards} />
         }
-
+        
       </div>
-
     </div>
   );
 };

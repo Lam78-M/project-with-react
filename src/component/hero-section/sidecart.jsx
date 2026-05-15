@@ -12,7 +12,7 @@ const Sidecart = () => {
                 <button className='px-4 py-2 '>Cart(0)</button>
             </div>  
         </div>
-        {/* start */}
+ 
         <div className='w-[75%] mx-auto'>
 <div className="flex w-full flex-col">
   <div className="card bg-base-300 rounded-box grid h-20 place-items-center">content</div>
@@ -20,7 +20,7 @@ const Sidecart = () => {
   <div className="card bg-base-300 rounded-box grid h-20 place-items-center">content</div>
 </div>
         </div>
-        {/* finsish       */}
+      
         </div>
     );
 };

@@ -37,20 +37,17 @@ const ShowingCards = ({cards, setCards}) => {
 
         <div className="flex items-center gap-4">
 
-          {/* LEFT IMAGE */}
           <img 
             src={card.image }
             alt={card.name}
             className="2-10 rounded-lg object-cover "
           />
 
-          {/* MIDDLE CONTENT */}
           <div className="flex-1">
             <h2 className="text-xl font-bold">{card.name}</h2>
             <p className="text-gray-600 text-lg">${card.price}</p>
           </div>
 
-          {/* RIGHT REMOVE BUTTON */}
           <button 
   onClick={() => {
     toast.success("Item Removed")
@@ -62,8 +59,6 @@ const ShowingCards = ({cards, setCards}) => {
 </button>
 
         </div>
-        
- 
       </div>
 
     ))}

@@ -19,8 +19,6 @@ function App() {
   return (
     <div>
       <Toaster />
-
-      {/* HOME PAGE */}
       {page === "home" && (
         <>
           <Hero cards={cards} setPage={setPage} />
@@ -32,8 +30,6 @@ function App() {
           <Lastsection />
         </>
       )}
-
-      {/* CART PAGE */}
       {page === "cart" && (
         <ShowingCards
           cards={cards}

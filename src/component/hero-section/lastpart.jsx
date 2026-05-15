@@ -29,8 +29,7 @@ const Lastpart = () => {
               <div className='bg-[#FFFFFF] shadow-sm rounded-2xl px-8 py-20 relative'>
                 <div className='w-7 h-7 p-4 text-white flex items-center justify-center bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full  absolute  top-4 right-4 '>02</div>
                <div className='flex justify-center'>
-                
-                      
+                    
                     <img src={Package} alt="" className='items-center bg-[#8000803b] w-20 h-20 p-3   rounded-full' />
                 </div>
                 <p className='text-xl text-center font-bold mt-[10px]'>Choose Products</p>

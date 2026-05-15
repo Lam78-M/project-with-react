@@ -3,13 +3,10 @@ import toast from 'react-hot-toast';
 
 const toolsPromise = fetch('/data.json').then(res => res.json())
 
-
-
 const ProductCard = ({cards, setCards}) => {
-  const tools = use(toolsPromise)
-  console.log(tools)
-
-   const  addToCart =(tool) =>{
+    const tools = use(toolsPromise)
+    console.log(tools)
+    const  addToCart =(tool) =>{
     const isExist = cards.find(c=> c.id == tool.id);
     if(isExist){
       toast.error('Item is already in cart')
@@ -18,20 +15,19 @@ const ProductCard = ({cards, setCards}) => {
     setCards([...cards, tool])
     toast.success('Item added to cart')
     
-   }
-
+    }
    const isInCard = (id)=>  cards.find(cart => cart.id == id)
-
-  return (
+   return (
     <div>
     
   <div className='grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-6 container mx-auto  mt-25 mb-40'>
-         {
-        tools.map(tool => <div key={tool.id}>
-
-<div className="card  bg-[#ffc0cb20] shadow-sm">
+    {
+    tools.map(tool => <div key={tool.id}>
+<div className="card  bg-[#ffc0cb0d] shadow-sm">
   <div className="card-body">
-    {/* ]]]]]]]]]]]]]]] */}
+
+    {/* ---------------------------- */}
+
     <div className='flex items-center justify-between'>
           <img 
             src={tool.image }
@@ -84,8 +80,6 @@ const ProductCard = ({cards, setCards}) => {
     </div>
   </div>
 </div>
-
-
         </div>)
       }
   </div>

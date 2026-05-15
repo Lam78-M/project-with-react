@@ -10,21 +10,17 @@ const Lastsection = () => {
              <h1 className='text-center pt-[80px] text-3xl font-bold text-white'>Ready to Transform Your Workflow?</h1>
              <p className='text-center text-white mt-[25px]'>Join thousands of professionals who are already using Digitools to work smarter.<br></br>Start your free trial today.</p>
 
-             <div className='flex gap-3 justify-center mt-[40px]'>
+               <div className='flex gap-3 justify-center mt-[40px]'>
                 <button className='px-4 py-2 rounded-full bg-white '><span className='bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-transparent bg-clip-text font-bold'>Explore Products</span></button>
-
-                 <button className="p-1 rounded-full border border-white">
-                       <span className="flex items-center justify-center  px-4 py-2  rounded-full ">
-                        
-                         <span className=" text-white ">
-                           Watch Demo
-                         </span>
-                       </span>   
-                     </button>
+              <button className="p-1 rounded-full border border-white">
+              <span className="flex items-center justify-center  px-4 py-2  rounded-full ">           
+              <span className=" text-white "> Watch Demo </span>
+                </span>   
+                </button>
              </div>
              <p className='text-center text-white  pt-2'>14-day free trial • No credit card required • Cancel anytime</p>
           </div>
-          {/* fgdddddffffffffffff */}
+          {/* ------------------------------------------ */}
            <div className='grid md:grid-cols-2 lg:grid-cols-5  justify-center  bg-[#101727] gap-10 px-35 py-16  '>
            <div className='space-y-4'>
            <h2 className='text-white  pt-20 text-4xl font-bold'>DigiTools</h2>

@@ -5,10 +5,9 @@ import Banner from "../hero-section/assets/banner.png"
 
 const MidSsection = () => {
     return (
-        
         <div className="flex flex-col lg:flex-row justify-between items-center mx-auto mt-[100px] lg:mt-[100px] max-w-[90%] lg:max-w-[75%] gap-10">
-
-  {/* LEFT TEXT */}
+          
+  {/* LEFT---------------------------------- TEXT */}
   <div className="space-y-8 text-center lg:text-left">
     
     <button className="flex items-center justify-center lg:justify-start gap-2 py-2 px-4 bg-[#E1E7FF] rounded-full mx-auto lg:mx-0">
@@ -32,7 +31,6 @@ const MidSsection = () => {
     </p>
 
     <div className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
-      
       <button className="rounded-full px-5 py-2 bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white text-sm lg:text-base">
         Explore Products
       </button>
@@ -49,7 +47,7 @@ const MidSsection = () => {
     </div>
   </div>
 
-  {/* RIGHT IMAGE */}
+  {/* RIGHT ------------------------------------ IMAGE */}
   <div className="w-full lg:w-1/2 flex justify-center">
     <img className="w-[550px] max-w-md lg:max-w-full h-auto object-contain" src={Banner} alt="" />
   </div>
