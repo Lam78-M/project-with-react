@@ -4,7 +4,7 @@
     "bar": "Best Seller",
     "name": "AI Writing Pro",
     "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
-    "price": 29 ,
+    "price":  29 ,
     "period": "/Mo",
     "tag": "new",
     "tagType": "new",
@@ -77,7 +77,7 @@
   {
     "id": 6,
     "bar": "Best Seller",
-    "name": "Social Media Content Kit",
+    "name": "Social Media Content ",
     "description": "Complete toolkit for creating engaging social media content across all platforms.",
     "price": 39,
     "period": "/Mo",

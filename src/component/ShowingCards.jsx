@@ -1,13 +1,25 @@
 import React from 'react';
+import toast from 'react-hot-toast';
 
-const ShowingCards = ({cards}) => {
+
+
+
+const ShowingCards = ({cards, setCards}) => {
 
    const total = cards.reduce((sum, card) => sum + card.price, 0);
     console.log(total)
+
+    const removeCartItem = (id) =>{
+     const filteredCard = cards.filter(cart => cart.id !=id)
+     console.log(filteredCard)
+     setCards(filteredCard)
+    }
     
     
     if(cards.length == 0 ){
-        return <div>  </div>
+        return <div className='container mx-auto items-center flex justify-center p-50 bg-gray-100 mt-20 mb-20 text-2xl'>
+          No Cards found 
+           </div>
     }
     return (
 
@@ -39,18 +51,41 @@ const ShowingCards = ({cards}) => {
           </div>
 
           {/* RIGHT REMOVE BUTTON */}
-          <button
-            className="text-red-500 font-semibold hover:underline"
-            onClick={() => console.log("remove clicked")}
-          >
-            Remove
-          </button>
+          <button 
+  onClick={() => {
+    toast.success("Item Removed")
+    removeCartItem(card.id)
+  }} 
+  className='btn rounded-2xl text-red-500'
+>
+  Remove
+</button>
 
         </div>
-
+        
+ 
       </div>
 
     ))}
+<div className="flex justify-between items-center mt-8 border-t pt-4">
+
+  <h1 className="text-2xl font-bold">
+    Total Price
+  </h1>
+
+  <h1 className="text-2xl font-bold text-green-600">
+    ${total}
+  </h1>
+
+</div>
+<button 
+  onClick={() => {toast.success("Checkout Successful")
+     setCards([])
+     }}
+  className='btn btn-primary rounded-2xl w-full mt-6'
+>
+  Proceed to Checkout
+</button>
 
   </div>
 </div>
