@@ -22,7 +22,7 @@ function App() {
       {page === "home" && (
         <>
           <Hero cards={cards} setPage={setPage} />
-          <MidSsection />
+         <MidSsection></MidSsection>
           <Mainmid />
           <Cardsection cards={cards} setCards={setCards} setPage={setPage} />
           <Lastpart />
