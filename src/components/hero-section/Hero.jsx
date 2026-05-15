@@ -42,6 +42,8 @@ const Hero = ({cards}) => {
     <a className="btn rounded-full  bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white ">Get Started</a>
   </div>
 </div>
+
+
  </div>
     );
 };
