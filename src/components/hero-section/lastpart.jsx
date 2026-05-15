@@ -1,7 +1,7 @@
 import React from 'react';
-import User from "../hero-section/assets/user.png"
-import Package from "../hero-section/assets/package.png"
-import Rocket from "../hero-section/assets/rocket-02.png"
+import User from "./assets/user.png"
+import Package from "./assets/package.png"
+import Rocket from "./assets/rocket-02.png"
 
 
 const Lastpart = () => {

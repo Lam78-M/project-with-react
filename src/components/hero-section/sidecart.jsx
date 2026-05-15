@@ -1,5 +1,5 @@
 import React from 'react';
-import Books from "../hero-section/assets/products/writing_2327400 1.png"
+import Books from "./assets/products/writing_2327400 1.png"
 
 const Sidecart = () => {
     return (

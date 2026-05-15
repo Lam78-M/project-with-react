@@ -1,14 +1,15 @@
 import { useState } from 'react';
 import './App.css';
 
-import Cardsection from './component/hero-section/Cardsection';
-import Hero from './component/hero-section/Hero';
-import Lastpart from './component/hero-section/lastpart';
-import Lastsection from './component/hero-section/lastsection';
-import Mainmid from './component/hero-section/mainmid';
-import MidSsection from './component/hero-section/midSsection';
-import Transparent from './component/hero-section/transparent';
-import ShowingCards from './component/ShowingCards';
+
+import Hero from "./components/hero-section/Hero";
+import Cardsection from './components/hero-section/Cardsection';
+import Lastpart from './components/hero-section/lastpart';
+import Lastsection from './components/hero-section/lastsection';
+import Mainmid from './components/hero-section/mainmid';
+import MidSsection from './components/hero-section/midSsection';
+import Transparent from './components/hero-section/transparent';
+import ShowingCards from './components/ShowingCards';
 
 import { Toaster } from 'react-hot-toast';
 

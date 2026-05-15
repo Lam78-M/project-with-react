@@ -1,7 +1,7 @@
 import React from 'react';
-import Rectangle from "../hero-section/assets/Rectangle 4.png"
-import Arrow from "../hero-section/assets/Play.png"
-import Banner from "../hero-section/assets/banner.png"
+import Rectangle from "./assets/Rectangle 4.png"
+import Arrow from "./assets/Play.png"
+import Banner from "./assets/banner.png"
 
 const MidSsection = () => {
     return (

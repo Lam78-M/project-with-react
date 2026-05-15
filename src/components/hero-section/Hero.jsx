@@ -1,5 +1,5 @@
 import React from 'react';
-import Icon from "../hero-section/assets/Icon (Stroke) (1).png"
+import Icon from "./assets/Icon (Stroke) (1).png"
 
 const Hero = ({cards}) => {
     return (

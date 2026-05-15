@@ -1,7 +1,7 @@
 import React from 'react';
-import Insta from "../hero-section/assets/Instagram (1).png"
-import Fb from  "../hero-section/assets/Facebook.png"
-import Xst from "../hero-section/assets/fi_5968958.png"
+import Insta from "./assets/Instagram (1).png"
+import Fb from  "./assets/Facebook.png"
+import Xst from "./assets/fi_5968958.png"
 
 const Lastsection = () => {
     return (
