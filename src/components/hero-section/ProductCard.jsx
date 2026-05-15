@@ -29,11 +29,11 @@ const ProductCard = ({cards, setCards}) => {
     {/* ---------------------------- */}
 
     <div className='flex items-center justify-between'>
-          <img 
-            src={tool.image }
-            alt={tool.name}
-            className="2-10 rounded-lg object-cover "
-          />
+<img 
+  src={tool.image}
+  alt={tool.name}
+  className="w-10 rounded-lg object-cover shadow-2xl p-2"
+/>
           <span
   className={`badge text-md p-3 
     ${tool.tagType === "new" && "bg-green-100 text-green-600"}

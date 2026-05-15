@@ -12,7 +12,7 @@
     "features2":"50+ writing templates",
     "features3":"Grammar checker",
     "icon": "FaRocket",
-     "image": "../src/component/hero-section/assets/products/writing_2327400 1.png"
+     "image": "/src/components/hero-section/assets/products/camera_8775444 1.png"
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
     "features2": " Monthly updates    ",
     "features3": " Commercial license",
     "icon": "FaUser",
-     "image": "../src/component/hero-section/assets/products/design-tool.png"
+     "image": "/src/components/hero-section/assets/products/design-tool.png"
   },  
   {
     "id": 3,
@@ -42,7 +42,7 @@
     "features2":"Commercial use",
     "features3":"No attribution",
     "icon": "FaCrown",
-     "image": "../src/component/hero-section/assets/products/camera_8775444 1.png"
+     "image": "/src/components/hero-section/assets/products/writing_2327400 1.png"
   },
   {
     "id": 4,
@@ -57,7 +57,7 @@
     "features2":"API access",
     "features3":"Custom workflows  ",
     "icon": "FaStar",
-     "image": "../src/component/hero-section/assets/products/operation.png"
+     "image": "../src/components/hero-section/assets/products/operation.png"
   },
   {
     "id": 5,
@@ -72,7 +72,7 @@
     "features2":"ATS optimization",
     "features3":"Export to PDF",
     "icon": "FaBuilding",
-     "image": "../src/component/hero-section/assets/products/portfolio.png"
+     "image": "../src/components/hero-section/assets/products/portfolio.png"
   },
   {
     "id": 6,
@@ -87,6 +87,6 @@
     "features2": "5000+ assets",
     "features3": "Analytics dashboard ",
     "icon": "FaInfinity",
-     "image": "../src/component/hero-section/assets/products/social-media.png"
+     "image": "../src/components/hero-section/assets/products/social-media.png"
   }
 ]

@@ -38,9 +38,9 @@ const ShowingCards = ({cards, setCards}) => {
         <div className="flex items-center gap-4">
 
           <img 
-            src={card.image }
+            src={card.image}
             alt={card.name}
-            className="2-10 rounded-lg object-cover "
+            className="w-10 rounded-lg object-cover "
           />
 
           <div className="flex-1">
